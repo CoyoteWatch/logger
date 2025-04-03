@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoyoteWatch | OSINT Intelligence</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unpkg.com/@icon/icofont/icofont.css">
+    <!-- SIMPLE ANIMATIONS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <!-- Подключение внешнего CSS -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <header data-aos="fade-down">
+            <h1>CoyoteWatch</h1>
+            <p class="subtitle">Telegram OSINT мониторинг</p>
+        </header>
+
+        <main>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="https://t.me/CoyoteWatch_bot" class="btn btn-primary">
+                    <i class="icofont-telegram"></i> Начать использовать
+                </a>
+                <a href="https://t.me/CoyoteWatch" class="btn btn-outline">
+                    <i class="icofont-paper"></i> Наш канал
+                </a>
+            </div>
+
+            <div class="features">
+                <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="icofont-database"></i> Сбор данных</h3>
+                    <p>Полная информация о новых участниках вашего чата или канала</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="icofont-ui-alarm"></i> Уведомления</h3>
+                    <p>Мгновенные оповещения о новых подписчиках</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="icofont-chart-histogram"></i> Анализ</h3>                    <p>Детальная аналитика пользователей</p>
+                </div>
+            </div>
+        </main>
+
+        <footer data-aos="fade-up" data-aos-delay="500">
+            © 2025 CoyoteWatch — абсолютно бесплатный сервис
+        </footer>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            once: true,
+            easing: 'ease-out-quart'
+        });
+    </script>
+</body>
+</html>
